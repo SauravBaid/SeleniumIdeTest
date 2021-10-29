@@ -1,0 +1,306 @@
+{
+  "id": "fefc59e2-a7ff-4475-819d-b4e2f87a04f5",
+  "version": "2.0",
+  "name": "OlaCorpTesting",
+  "url": "https://corporate.olacabs.com",
+  "tests": [{
+    "id": "76970897-b107-4f34-83fc-20193138fc32",
+    "name": "InvalidEmail",
+    "commands": [{
+      "id": "9acfd410-b31f-48fb-9741-9ab9aca01b4c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6b1b508-9b01-41da-821d-f6095631b2a6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1055x661",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "353ebd20-863b-4af5-a51f-c89b5b9e1ec8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=link-contact",
+      "targets": [
+        ["id=link-contact", "id"],
+        ["css=#link-contact", "css:finder"],
+        ["xpath=//a[contains(text(),'Contact Us')]", "xpath:link"],
+        ["xpath=//a[@id='link-contact']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#contact')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49c01e4b-ad6f-4146-8777-c33519da6ca9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e281233-47c8-492d-83bb-ecabfdc99c9c",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.stroke:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cb0da6a-a9a2-4ab7-b98d-ce77e3823dd3",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.ng-not-empty", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "baidsamir"
+    }, {
+      "id": "ef6bec00-a571-4ee5-833b-0070daea80c6",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.ng-valid-parse", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "qweasd"
+    }, {
+      "id": "d392ba77-67d4-4977-a5eb-62a51f9a8aa6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-prime",
+      "targets": [
+        ["css=.b-prime", "css:finder"],
+        ["xpath=//input[@value='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38a313da-1a47-4852-8e16-878e8229edf3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.info",
+      "targets": [
+        ["css=.info", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'Please correct the highlighted fields')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c03ed4d1-cf78-426a-8756-098b404f416d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.info",
+      "targets": [
+        ["css=.info", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'Please correct the highlighted fields')]", "xpath:innerText"]
+      ],
+      "value": "Please correct the highlighted fields"
+    }]
+  }, {
+    "id": "63d2d054-662a-4af5-ae3c-a9e0fd481b91",
+    "name": "Test2",
+    "commands": [{
+      "id": "ba25e9ac-ff3c-4e80-982c-f3e207d603b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a038da7b-5f0d-4760-bcf3-5ebc0560b83c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1056x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f0a99e2-c07b-40e4-a553-4d961ceeb4d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu > li:nth-child(1) > a",
+      "targets": [
+        ["css=.menu > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46be7443-34cc-4817-ae4e-76cb6af1840d",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.stroke:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bd6d12-9eb3-43cd-a433-b35397bba307",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.ng-not-empty", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "baidsamir26@gmail.com"
+    }, {
+      "id": "d1d7283d-bb98-4583-aec2-d98f512b76c0",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.stroke:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "902fb802-fbab-46a5-8946-ca94b2a74c5d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.stroke:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "qweasd098"
+    }, {
+      "id": "23f3ec6c-9368-4b7d-a32f-a71dc8da5956",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-prime",
+      "targets": [
+        ["css=.b-prime", "css:finder"],
+        ["xpath=//input[@value='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2257057b-2e03-48e8-833a-e3ef9aad9659",
+      "comment": "",
+      "command": "click",
+      "target": "css=.info",
+      "targets": [
+        ["css=.info", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'Please tick the captcha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05e3be9d-b29e-4591-b12d-f803d186295b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "d98509e9-6a62-4db6-84a1-eb1429ccc04d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d585aeb4-7155-436c-881b-684ce20ececa",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "66f77742-ed75-47ca-bcdf-94f75ae87034",
+      "comment": "",
+      "command": "click",
+      "target": "css=.b-prime",
+      "targets": [
+        ["css=.b-prime", "css:finder"],
+        ["xpath=//input[@value='submit']", "xpath:attributes"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "931bf49a-0a5b-4d46-b1b6-e687eeb216bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pad",
+      "targets": [
+        ["css=.pad", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf5e713b-65b0-4d5a-a161-1136a4732751",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.info",
+      "targets": [
+        ["css=.info", "css:finder"],
+        ["xpath=//section[@id='loginSec']/div/div/div/div/div[2]/div/div/div/div/form/small", "xpath:idRelative"],
+        ["xpath=//small", "xpath:position"],
+        ["xpath=//small[contains(.,'Provided details do not match')]", "xpath:innerText"]
+      ],
+      "value": "Provided details do not match"
+    }]
+  }],
+  "suites": [{
+    "id": "8910111d-1536-44da-b4cd-4a652b70ad0f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["76970897-b107-4f34-83fc-20193138fc32"]
+  }],
+  "urls": ["https://corporate.olacabs.com/"],
+  "plugins": []
+}
